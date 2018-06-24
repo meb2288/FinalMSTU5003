@@ -165,15 +165,3 @@ function toggleClass(el) {
 function myFunction() {
     document.getElementById("print").innerHTML = "You read all the directions - you're awesome!";
 }
-
-var lastQuestion = [
-	{
-		id: 4,
-		question: "Are you awesome?"
-		options: [ 
-		"yes",
-		"no"
-		],
-		answer: "yes"
-	}
-	]
