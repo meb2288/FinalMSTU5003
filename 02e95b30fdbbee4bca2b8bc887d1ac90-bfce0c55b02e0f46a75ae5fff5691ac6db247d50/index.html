@@ -1,0 +1,157 @@
+<!--Heading-->
+<div class="container black-border text-center blue-background">
+	<h4> Today is <span id="todaysDate"> </span>. </h4>
+	<h1> Lesson 2: <strong> Writing Text Structures </strong> </h1>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Welcome, students! This is part two of our initial lesson. You will implement the knowledge gained during the identifying text structures lesson, in order to create your own pieces of writing using text structures. Please follow the directions for each section that follows. </h4>
+</div>
+<br>
+
+<!-- Part-One -->
+<div class="container text-center black-border white-background">
+	<h2> PART ONE: PURPOSE, OBJECTIVES, & PRE-ASSESSMENT </h2>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Please read the objectives, agenda, and extension of this lesson for tomorrow. After, please answer the checklist question about your knowledge and comfort of text structures. </h4>
+	<h3>Purpose & Objectives</h3>
+	<table class="table table-bordered text-left">
+		<thead class="blue-background">
+			<tr>
+				<th>Objective</th>
+				<th>Lesson Agenda</th>
+				<th>Tomorrow's Extension</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td> Students will be able to create text structures within their nonfiction writing in order to understand how parts of the text relate to the whole.</td>
+				<td>
+					<ul>
+						<li> Read and Complete Part One: Purpose, Objectives, & Pre-Assessment. </li>
+						<li> Complete the "We Do" (Part Two) section by selecting the next correct line in the structure. </li>
+						<li> Complete the "You Do" (Part Three) section by writing your own text structure nonfiction text. </li>
+						<li> Complete the reflection section (Part Four) where you rate your understanding once more. </li>
+					</ul>
+				</td>
+				<td> Based on the data collected from the "We Do" and "You Do" sections, small group instruction and conferences will be held in class during independent practice after lesson. </td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!--Pre-Assessment (Still part of Part One)-->
+	<h3>Pre-Assessment</h3>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Please choose from one of the following choices, which best describes your knowledge and comfort with writing your own text structure. If the answer you choose tells you to refer back to
+		the previous lesson, please click <a href="https://codepen.io/meb2288/live/YvKdVb" target="_blank">here.</a> </h4>
+	<div align="left">
+		<label> First, what is your name? <input id="name" type="text" placeholder="Write your name"> </label>
+		<br>
+		<h5> Next, think about how you did on the first lesson for text structures. </h5>
+		<label> Rate yourself & then submit all your answers! 
+				<select id="preRating">
+					<option value= "zero"> </option>
+					<option value= "one"> 1 - I didn't understand any of it. </option>
+        <option value= "two"> 2 - I understood some of it, but I might need help. </option>
+        <option value= "three"> 3 - I understood most of it, but I still have some questions. </option>
+        <option value= "four"> 4 - I understood all of it. </option>
+        <option value= "five"> 5 - I understood all of it, and I could explain it to others. </option>
+				</select> 
+      </label>
+		<br>
+		<button id="button" type="button" class="btn-primary btn-md"> Submit </button>
+		<div id="message"> </div>
+	</div>
+	<br>
+</div>
+<br>
+
+<!--Part Two-->
+<div class="container text-center black-border white-background">
+	<h2> PART TWO: "WE DO" </h2>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Please select the best line that would come next in the paragraph given the text structure provided. The one pre-selected may not be the correct answer, and you will have to click the correct
+		one.</h4>
+
+	<div class="question" align="left">
+		<h4> <u> Question #1 </u> </h4>
+		<h5> The foundation of every pizza is the crust, and good crust comes from good dough. You might be surprised to learn that pizza dough is made from nothing more than flour, water, yeast, olive oil, salt, and sometimes sugar. Start by adding your yeast packet to a cup of warm water. Let the yeast activate, and then add two cups of flour, two tablespoons of olive oil, two teaspoons of sugar, and a teaspoon of salt.</h5>
+		<p>
+			<label><input type="radio" name="questionOne" value="1" onclick="oneQuestionA();" checked/> In 1918 pizza began to rise in popularity in the United States.</label>
+			</br>
+			<label><input type="radio" name="questionOne" value="2" onclick="oneQuestionB();"/> Mix all of that together and wait half an hour for the dough to rise. </label>
+			</br>
+		</p>
+	</div>
+
+	<div align="left">
+		<h4> <u> Question #2 </u> </h4>
+		<h5> Pizza is so old that its origins are not quite clear to historians, but the word pizza comes from the Latin verb pinsere, meaning to press. It may also be related to the Greek word pitta. In any event the word “pizza” was first documented in Italy in 997 AD. Whatever they were eating back then, however, was quite different from the pizza that we know today. Pizza as we know it could not really have been invented until sometime during the 16th century, when tomatoes were brought to Europe from America.
+		</h5>
+		<p>
+			<label><input type="radio" name="questionTwo" value="one" onclick="twoQuestion();" checked> Pizza is made with dough, sauce, and cheese. These elements are crucial to the construction of the food. </label>
+			<label><input type="radio" name="questionTwo" value="two" onclick="twoQuestion();"> One of the greatest development in the history of pizza occurred in 1905, when pizza was first sold in America. </label>
+		</p>
+	</div>
+</div>
+<br>
+
+<!--Part Three-->
+<div class="container text-center black-border white-background">
+	<h2> PART THREE: "YOU DO"</h2>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Using the images below, create a written nonfiction text detailing the sequence of what you see in the pictures. Please write 3-5 sentences for this section.</h4>
+	<div>
+		<h5> <u> Writing Response #1: Peanut Butter and Jelly How-To </u> </h5>
+		<h6> <u> Note:</u> Images run on an automatic slideshow. First image is the peanut butter, and the last is the putting together of slices. </h6>
+		<img name="slide" width="400" height="200" title="How to Make PBJ" alt="Images of PBJ" class="black-border"> </img>
+		<h6> Please write your text structure writing below. When finished, click "Submit"</h6>
+		<textarea id="comment1" class="form-control" name="questionThree" rows="3"></textarea>
+		<button id="button1" type="button" class="btn-primary"> Submit </button>
+		<div id="message1"> </div>
+		<br>
+		<h5> <u> Writing Response #2: Make Pasta </u> </h5>
+		<h6> <u> Note:</u> Click "Previous" or "Next" to access images. </h6>
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1998374/Water.jpg" name="slideshow" width="400" height="200" title="How to Cook Pasta" alt="Images of Cooking Pasta" class="black-border"> </img>
+		<div class="row">
+			<div class="col-md-6">
+				<h4><a href="javascript.html" onclick="return change_image(-1)"> Previous </a></h4>
+			</div>
+			<div class="col-md-6">
+				<h4><a href="javascript:change_image(1)"> Next </a></h4>
+			</div>
+		</div>
+		<h6> Please write your text structure writing below. When finished, click "Submit"</h6>
+		<textarea id="comment2" class="form-control" name="questionFour" rows="3"></textarea>
+		<button id="button2" type="button" class="btn-primary"> Submit </button>
+		<div id="message2"> </div>
+	</div>
+	<br>
+</div>
+<br>
+
+<!--Part Four-->
+<div class="container text-center black-border white-background">
+	<h2> PART FOUR: REFLECTION </h2>
+	<h4> <span class="red-text"> <strong> Directions: </strong> </span> Click the box that best describes your feeling after you have finished Lesson 2 - Writing Text Structures.</h4>
+	<h5> <u> Rating of Text Structures Ability </u> </h5>
+	<div id="finalRating">
+		<div class="class1" onclick="toggleClass(this)">I need a lot of help.</div>
+		<div class="class1" onclick="toggleClass(this)">I need some help.</div>
+		<div class="class1" onclick="toggleClass(this)">I have one question.</div>
+		<div class="class1" onclick="toggleClass(this)">I am doing great.</div>
+	</div>
+
+	<h5> <u> Need some extra help? Use these links! </u> </h5>
+	<a href="https://youtu.be/nmmOOxA-ig8">Video 1</a>
+	<a href="https://youtu.be/AsElFo4f9pM">Video 2</a>
+	<a href="https://youtu.be/7kWGQ-_ipBY">Video 3</a>
+	<a href="https://youtu.be/qSGX34Zf82c">Video 4</a>
+	<br>
+</div>
+<br>
+
+<!--Last Instructions-->
+<div class="container text-center black-border white-background">
+	<h4> When you're all done with this lesson, print the whole page using CTRL + P, and turn it in to Miss Babin in class for her to view your work. <span id="print" onclick="myFunction()"> Click here to demonstrate that you read this last part! </span> </h4>
+	<br>
+	<li id="4">
+	<h4> Are you awesome? </h4>
+	<input type="radio" name="awesome" value="yes"> yes
+	<input type="radio" name="awesome" value="no"> no
+	</li>
+</div>
+<br>
